@@ -15,6 +15,7 @@
     margin:0;
     padding:0;
     font-family : 'SuncheonR';
+    font-size:calc((100vw/1920)*16);
 }
 a{
     color:inherit;
@@ -84,7 +85,8 @@ ul,li{
     background-size:cover;
 }
 .box_image > img{
-    /* width: 100%; */
+    display:block;
+    width: 100%;
 }
 .align_center{
     text-align:center;
@@ -101,10 +103,8 @@ body{
 .wrap_background{
     width: 100%;
     height: 100%;
-    position:absolute;
-    z-index:1;
-    /* position:fixed;
-    z-index:1; */
+    position:fixed;
+    z-index:999;
     display:flex;
 }
 .wrap_background > .box_background{
@@ -120,7 +120,6 @@ body{
 .wrap_background > .box_background.left > .svg_code{
     top:0;
     left:calc((100vw/1920)*128);
-    stroke-dasharray:1;
 }
 .wrap_background > .box_background.right > svg{
     top:0;
@@ -128,9 +127,60 @@ body{
 }
 /* .wrap_background end */
 
+/* .wrap_layout_backgroud start */
+
+.wrap_layout_background > .box_layout_background{
+    width:calc((100vw/1920)*1280);
+    height: 100%;
+    padding:0 calc((100vw/1920)*40);
+    box-sizing:border-box;
+    position:absolute;
+    top:0;
+    left:50%;
+    transform:translateX(-50%);
+    z-index:9999;
+    pointer-events:none;
+}
+.wrap_layout_background > .box_layout_background > .box_language{
+
+    position:absolute;
+    right:calc((100vw/1920)*40);
+    bottom:calc((100vh/1080)*40);
+}
+.wrap_layout_background > .box_layout_background > .box_language > .language{
+    font-size:calc((1rem/16)*24);
+    line-height:calc(36/24);
+    text-align:right;
+    color:#d6d6d6;
+    pointer-events:auto;
+    cursor:pointer;
+}
+
+/* hover event on .wrap_layout_background start */
+
+.wrap_layout_background > .box_layout_background > .box_language > .language:hover{
+    font-weight:bold;
+    color:#C62525;
+}
+
+/* hover event on .wrap_layout_background end */
+
+/* click event on .wrap_layout_background start */
+
+.wrap_layout_background > .box_layout_background > .box_language > .language.active{
+    font-weight:bold;
+    color:#C62525;
+}
+
+/* click event on .wrap_layout_background end */
+
+/* .wrap_layout_backgroud end */
+
+
+
 /* .wrap_fullpage start */
 .wrap_fullpage{
-    z-index:9999;
+    z-index:8888;
 }
 
 /* .view_pc start */
@@ -142,9 +192,36 @@ body{
 
 .view_pc > .box_introduction{
     height: 100%;
-
-    background-color:orange;
-    opacity:0.6;
+    position:relative;
+}
+.view_pc > .box_introduction > .box_svg{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.view_pc > .box_introduction > .box_svg > svg{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.view_pc > .box_introduction > .box_name{
+    position:absolute;
+    right:calc((100vw/1920)*102);
+    bottom:calc((100vh/1080)*282);
+}
+.view_pc > .box_introduction > .box_name > div{
+    display:inline-block;
+    text-align:right;
+    font-size:calc((1rem/16)*40);
+}
+.view_pc > .box_introduction > .box_name > .occupation{
+    position:absolute;
+    top:120%;
+    right:0;
 }
 
 /* .box_introduction end */
@@ -161,20 +238,49 @@ body{
 
 /* .view_mo end */
 
+
+/* click event on korean-english transform start*/
+
+/* on .box_introduction start*/
+
+.box_svg > .svg_title{
+    opacity:0;
+    pointer-events:none;
+}
+.box_svg.active > .svg_title{
+    opacity:1;
+    pointer-events:auto;
+    transition:0.5s;
+}
+.view_pc > .box_introduction > .box_svg > .svg_underline{
+    stroke-dasharray:3000;
+    stroke-dashoffset:3000;
+    /* opacity:0; */
+}
+.view_pc > .box_introduction > .box_svg.active > .svg_underline{
+    stroke-dashoffset:0;
+    /* opacity:1; */
+    transition:2s;
+}
+.view_pc > .box_introduction > .box_name > .occupation{
+    opacity:0;
+    pointer-events:none;
+}
+.view_pc > .box_introduction > .box_name > .occupation.active{
+    opacity:1;
+    pointer-events:auto;
+    transition:0.5s;
+}
+/* on .box_introduction end */
+
+/* click event on korean-english transform end */
+
+
 /* .wrap_fullpage end */
 
 
 /* animation start */
 
-@keyframes bg_left{
-    from{
-        stroke-dasharray:200;
-        stroke-dashoffset:200;
-    }
-    to{
-        stroke-dashoffset:0;
-    }
-}
 
 /* animation end */
 

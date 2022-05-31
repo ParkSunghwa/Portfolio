@@ -15,12 +15,14 @@
     <!-- swiper -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- drawsvg -->
+    <script src="https://cdn.jsdelivr.net/npm/drawsvg@1.1.0/public/jquery.drawsvg.min.js"></script>
     <!-- my style&script -->
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/script.js"></script>
 </head>
 <body>
-    <div class="wrap_background ">
+    <div class="wrap_background wrap">
         <div class="box_background left">
             <svg class="svg_code" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 832 1080">
                 <defs>
@@ -154,12 +156,100 @@
                 </g>
                 </g>
             </svg>
+        </div> 
+    </div>
+
+    <div class="wrap_layout_background wrap">
+        <div class="box_layout_background">
+            <ul class="box_language">
+                <li class="language korean active">
+                    한국어
+                </li>
+                <li class="language english">
+                    English
+                </li>
+            </ul>
         </div>
     </div>
     <div class="wrap_fullpage">
         <div class="wrap_introduction section">
             <div class="view_pc wrap">
-                <div class="box_introduction con bgcolor_white"></div>
+                <div class="box_introduction con bgcolor_white">
+                    <div class="box_svg kor active">
+                        <svg class="svg_title" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1080">
+                            <defs>
+                            <style>
+                            .cls01_title{fill:none;}
+                            .cls02_title{font-size:80px;fill:#232323;font-family:SuncheonB, Suncheon;}
+                            </style>
+                            </defs>
+                            <g id="Layer_2" data-name="Layer 2">
+                            <g id="Layer_1-2" data-name="Layer 1">
+                            <g id="kor">
+                            <rect class="cls01_title" width="1280" height="1080"/><text class="cls02_title" transform="matrix(0.45, -0.9, 0.9, 0.45, 321.7, 424.06)">세</text><text class="cls02_title" transform="translate(353.81 358.87) rotate(-51.26)">상</text><text class="cls02_title" transform="matrix(0.78, -0.63, 0.63, 0.78, 399.09, 302)">을</text><text class="cls02_title" transform="translate(457.09 257.18) rotate(-30.91)"> </text><text class="cls02_title" transform="translate(475.27 244.03) rotate(-22.75)">만</text><text class="cls02_title" transform="translate(542.17 215.68) rotate(-10.35)">들</text><text class="cls02_title" transform="translate(613.61 202.39) rotate(1.87)">다</text><text class="cls02_title" transform="matrix(0.99, 0.17, -0.17, 0.99, 686.88, 206.51)">.</text><text class="cls02_title" transform="translate(219.13 446.89) rotate(-72.54)">스</text><text class="cls02_title" transform="translate(240.91 377.08) rotate(-62.74)">크</text><text class="cls02_title" transform="translate(274.27 311.97) rotate(-53.01)">린</text><text class="cls02_title" transform="translate(319.7 253.9) rotate(-46.62)"> </text><text class="cls02_title" transform="translate(334.17 236.4) rotate(-40.23)">속</text>
+                            </g>
+                            </g>
+                            </g>
+                        </svg>
+                        <svg class="svg_underline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1080">
+                            <defs>
+                            <style>
+                            .cls01_underline,.cls02_underline{fill:none;}
+                            .cls02_underline{stroke:#c62525;stroke-miterlimit:10;stroke-width:4px;}
+                            </style>
+                            </defs>
+                            <g id="Layer_2" data-name="Layer 2">
+                            <g id="Layer_1-2" data-name="Layer 1">
+                            <g id="kor">
+                            <rect class="cls01_underline" width="1280" height="1080"/><path class="cls02_underline" d="M341.8,435.36C385,312.3,502.19,224.06,640,224.06a317.49,317.49,0,0,1,64.89,6.67"/>
+                            </g>
+                            </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="box_svg eng">
+                        <svg class="svg_title" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1080">
+                            <defs>
+                            <style>
+                            .cls01_title{fill:none;}
+                            .cls02_title{font-size:80px;fill:#232323;font-family:SuncheonB, Suncheon;}
+                            </style>
+                            </defs>
+                            <g id="Layer_2" data-name="Layer 2">
+                            <g id="Layer_1-2" data-name="Layer 1">
+                            <g id="eng">
+                            <rect class="cls01_title" width="1280" height="1080"/><text class="cls02_title" transform="translate(313.12 524.28) rotate(-84.72)">I</text><text class="cls02_title" transform="matrix(0.2, -0.98, 0.98, 0.2, 315.23, 496.08)">n</text><text class="cls02_title" transform="matrix(0.32, -0.95, 0.95, 0.32, 323.96, 453.62)">s</text><text class="cls02_title" transform="matrix(0.41, -0.91, 0.91, 0.41, 337.07, 416.37)">i</text><text class="cls02_title" transform="matrix(0.5, -0.87, 0.87, 0.5, 344.91, 397.25)">d</text><text class="cls02_title" transform="translate(366.99 358.72) rotate(-52.45)">e</text><text class="cls02_title" transform="matrix(0.69, -0.73, 0.73, 0.69, 393.88, 324.49)"> </text><text class="cls02_title" transform="translate(409.05 307.52) rotate(-40.87)">Y</text><text class="cls02_title" transform="translate(441.92 278.83) rotate(-33.1)">o</text><text class="cls02_title" transform="matrix(0.9, -0.43, 0.43, 0.9, 480.07, 253.92)">u</text><text class="cls02_title" transform="matrix(0.95, -0.32, 0.32, 0.95, 519.42, 235.55)">r</text><text class="cls02_title" transform="translate(551.18 225.07) rotate(-13.6)"> </text><text class="cls02_title" transform="translate(573.02 219.02) rotate(-7.45)">S</text><text class="cls02_title" transform="translate(619.87 212.75) rotate(0.93)">c</text><text class="cls02_title" transform="translate(659.08 213.18) rotate(6.3)">r</text><text class="cls02_title" transform="translate(692 216.41) rotate(13)">e</text><text class="cls02_title" transform="translate(734.1 226.02) rotate(20.62)">e</text><text class="cls02_title" transform="translate(774.58 241.13) rotate(28.22)">n</text><text class="cls02_title" transform="matrix(0.83, 0.56, -0.56, 0.83, 812.82, 262.25)">.</text><text class="cls02_title" transform="matrix(0.28, -0.96, 0.96, 0.28, 232.02, 449.5)">B</text><text class="cls02_title" transform="translate(246.1 400.96) rotate(-67.45)">u</text><text class="cls02_title" transform="matrix(0.45, -0.89, 0.89, 0.45, 263.33, 360.54)">i</text><text class="cls02_title" transform="translate(272.98 341.59) rotate(-60.07)">l</text><text class="cls02_title" transform="matrix(0.57, -0.82, 0.82, 0.57, 282.8, 323.49)">d</text><text class="cls02_title" transform="translate(308.59 286.59) rotate(-50.91)"> </text><text class="cls02_title" transform="matrix(0.68, -0.73, 0.73, 0.68, 323.08, 268.51)">t</text><text class="cls02_title" transform="matrix(0.74, -0.67, 0.67, 0.74, 343.71, 245.69)">h</text><text class="cls02_title" transform="translate(376.53 215.99) rotate(-36.08)">e</text><text class="cls02_title" transform="translate(412.17 190.48) rotate(-31.5)"> </text><text class="cls02_title" transform="translate(430.89 177.56) rotate(-25.38)">W</text><text class="cls02_title" transform="translate(490.71 149.8) rotate(-17.68)">o</text><text class="cls02_title" transform="translate(534.63 136.06) rotate(-12.19)">r</text><text class="cls02_title" transform="translate(567.61 129.12) rotate(-8.44)">l</text><text class="cls02_title" transform="matrix(1, -0.07, 0.07, 1, 587.91, 125.59)">d</text>
+                            </g>
+                            </g>
+                            </g>
+                        </svg>
+                        <svg class="svg_underline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1080">
+                            <defs>
+                            <style>
+                            .cls01_underline,.cls02_underline{fill:none;}
+                            .cls02_underline{stroke:#c62525;stroke-miterlimit:10;stroke-width:4px;}
+                            </style>
+                            </defs>
+                            <g id="Layer_2" data-name="Layer 2">
+                            <g id="Layer_1-2" data-name="Layer 1">
+                            <g id="eng"><rect class="cls01_underline" width="1280" height="1080"/><path class="cls02_underline" d="M324.29,527.9C330.65,359,469.57,224.06,640,224.06a314.46,314.46,0,0,1,184.68,59.58"/>
+                            </g>
+                            </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="box_name">
+                        <div class="name">
+                            박성화/Park, Sunghwa
+                        </div>
+                        <div class="occupation kor active">
+                            웹퍼블리셔
+                        </div>
+                        <div class="occupation eng">
+                            Frontend Developer
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="view_mo wrap"></div>
         </div>
