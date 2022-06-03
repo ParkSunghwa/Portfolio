@@ -6,6 +6,20 @@ $(document).ready(function(){
 
     });
 
+
+    // .wrap_background start
+
+    // var bgRight = $(".svg_ground").drawsvg({
+    //     stagger:1500,
+    //     duration:2000,
+    // });
+
+    // bgRight.drawsvg('animate');
+
+    // .wrap_background end
+
+
+
     // .wrap_layout_background start
 
     $(".wrap_layout_background > .box_layout_background > .box_language > .language").click(function(){

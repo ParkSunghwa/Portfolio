@@ -111,6 +111,7 @@ body{
     width: 50%;
     height: 100%;
     position:relative;
+    overflow:hidden;
 }
 .wrap_background > .box_background > svg{
     height: 100%;
@@ -120,10 +121,50 @@ body{
 .wrap_background > .box_background.left > .svg_code{
     top:0;
     left:calc((100vw/1920)*128);
+    
+}
+.wrap_background > .box_background.left > .svg_code.code01 .cls02_code{
+    animation:bg_left 1.5s;
+}
+.wrap_background > .box_background.left > .svg_code.code02 .cls02_code{
+    animation:bg_left 1.3s;
+}
+.wrap_background > .box_background.left > .svg_code.code03 .cls02_code{
+    animation:bg_left 1.2s;
+}
+.wrap_background > .box_background.left > .svg_code.code04 .cls02_code{
+    animation:bg_left 1.1s;
+}
+.wrap_background > .box_background.left > .svg_code.code05 .cls02_code{
+    animation:bg_left 0.9s;
 }
 .wrap_background > .box_background.right > svg{
     top:0;
     right:calc((100vw/1920)*128);
+}
+.wrap_background > .box_background.right > .svg_ground{
+    animation:bg_right_ground 3s;
+}
+.wrap_background > .box_background.right > .svg_home{
+    animation:bg_right_home 3s;
+}
+.wrap_background > .box_background.right > .svg_car{
+    animation:bg_right_car 3s;
+}
+.wrap_background > .box_background.right > .svg_sun{
+    animation:bg_right_sun 3s ease-in;
+}
+.wrap_background > .box_background.right > .svg_cloud{
+    animation:bg_right_cloud 3s ease-in;
+}
+.wrap_background > .box_background.right > .svg_hello{
+    animation:bg_right_hello 3s;
+}
+.wrap_background > .box_background.right > .svg_today{
+    animation:bg_right_today 3s;
+}
+.wrap_background > .box_background.right > .svg_birds{
+    animation:bg_right_birds 3s ease-in;
 }
 /* .wrap_background end */
 
@@ -281,6 +322,146 @@ body{
 
 /* animation start */
 
+@keyframes bg_left{
+    0%{
+        stroke-dashoffset:100px;
+        stroke-opacity:1;
+        fill-opacity:0;
+    }
+    60%{
+        fill-opacity:0;
+    }
+    80%{
+        stroke-dashoffset:0px;
+        stroke-opacity:0.7;
+    }
+    100%{
+        stroke-dashoffset:0px;
+        stroke-opacity:0;
+        fill-opacity:1;
+    }
+}
+@keyframes bg_right_ground{
+    0%{
+        stroke-dashoffset:1000px;
+    }
+    50%{
+        stroke-dashoffset:1000px;
+        stroke-opacity:0;
+    }
+    60%{
+        stroke-opacity:1;
+    }
+    65%{
+        stroke-dashoffset:0;
+        stroke-opacity:1;
+    }
+    100%{
+        stroke-dashoffset:0;
+        stroke-opacity:1;
+    }
+}
+@keyframes bg_right_home{
+    0%{
+        opacity:0;
+    }
+    65%{
+        opacity:0;
+    }
+    80%{
+        opacity:1;
+    }
+}
+@keyframes bg_right_car{
+    0%{
+        opacity:0;
+    }
+    70%{
+        opacity:0;
+    }
+    85%{
+        opacity:1;
+    }
+}
+@keyframes bg_right_sun{
+    0%{
+        opacity:0;
+        right:calc((100vw/1920)*400);
+    }
+    70%{
+        opacity:0;
+        right:calc((100vw/1920)*400);
+    }
+    80%{
+        opacity:1;
+        right:calc((100vw/1920)*128);
+    }
+}
+@keyframes bg_right_cloud{
+    0%{
+        opacity:0;
+        right:calc((100vw/1920)*400);
+    }
+    72%{
+        opacity:0;
+        right:calc((100vw/1920)*400);
+    }
+    83%{
+        opacity:1;
+        right:calc((100vw/1920)*128);
+    }
+}
+@keyframes bg_right_hello{
+    0%{
+        opacity:0;
+        transform:rotateX(-90deg);
+    }
+    70%{
+        opacity:0;
+        transform:rotateX(-90deg);
+    }
+    85%{
+        opacity:1;
+    }
+    90%{
+        opacity:1;
+        transform:rotateX(0);
+    }
+}
+@keyframes bg_right_today{
+    0%{
+        opacity:0;
+        transform:rotateX(-90deg);
+    }
+    75%{
+        opacity:0;
+        transform:rotateX(-90deg);
+    }
+    90%{
+        opacity:1;
+    }
+    95%{
+        opacity:1;
+        transform:rotateX(0);
+    }
+}
+@keyframes bg_right_birds{
+    0%{
+        opacity:0;
+        top:30vh;
+    }
+    90%{
+        opacity:0;
+        top:30vh;
+    }
+    95%{
+        opacity:1;
+    }
+    100%{
+        opacity:1;
+        top:0;
+    }
+}
 
 /* animation end */
 
