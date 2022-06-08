@@ -9,12 +9,6 @@ $(document).ready(function(){
 
     // .wrap_background start
 
-    // var bgRight = $(".svg_ground").drawsvg({
-    //     stagger:1500,
-    //     duration:2000,
-    // });
-
-    // bgRight.drawsvg('animate');
 
     // .wrap_background end
 
@@ -48,7 +42,27 @@ $(document).ready(function(){
 
     // .box_introduction end
 
+    // .box_project start
 
+    const swiper = new Swiper(".view_pc .swiper", {
+        // Optional parameters
+        loop: true,
+      
+        // If we need pagination
+        // pagination: {
+        //   el: '.swiper-pagination',
+        // },
+      
+        // Navigation arrows
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      
+        
+      });
+
+    // .box_project end
 
 
 });
