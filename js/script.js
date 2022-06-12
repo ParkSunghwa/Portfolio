@@ -3,6 +3,19 @@ $(document).ready(function(){
     $(".wrap_fullpage").fullpage({
 
         navigation:true,
+        
+        afterLoad:function(origin, destination, direction){
+            if(destination.index == 1){
+                const graphActive = document.querySelector(".animation_graph");
+                graphActive.beginElement();
+            }
+        },
+        onLeave:function(origin, destination, direction){
+            if(origin.index == 1){
+                const graphInactive = document.querySelector(".animation_graph_back");
+                graphInactive.beginElement();
+            }
+        },
 
     });
 
@@ -42,6 +55,18 @@ $(document).ready(function(){
 
     // .box_introduction end
 
+    // .box_ability start
+
+    $(".view_pc > .box_ability > .box_layout_content > .box_content.right > .box_cover > .box_text").click(function(){
+
+        const graphActive = document.querySelector(".animation_graph");
+        graphActive.beginElement();
+
+    });
+
+    // .box_ability end
+
+    
     // .box_project start
 
     const swiper = new Swiper(".swiper", {
