@@ -7,13 +7,13 @@ $(document).ready(function(){
         // .box_ability start
         afterLoad:function(origin, destination, direction){
             if(destination.index == 1){
-                const graphActive = document.querySelector(".animation_graph");
+                const graphActive = document.querySelector(".animation_spread");
                 graphActive.beginElement();
             }
         },
         onLeave:function(origin, destination, direction){
             if(origin.index == 1){
-                const graphInactive = document.querySelector(".animation_graph_back");
+                const graphInactive = document.querySelector(".animation_shrink");
                 graphInactive.beginElement();
             }
         },

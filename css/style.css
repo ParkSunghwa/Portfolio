@@ -351,9 +351,26 @@ body{
 .view_pc > .box_ability > .box_layout_content > .box_content.left{
     flex:690 1 0%;
 }
-.view_pc > .box_ability > .box_layout_content > .box_content.left > .box_graph{
+.view_pc > .box_ability > .box_layout_content > .box_content.left > .box_cover{
     width:calc((100%/690)*516);
+    height: calc((100vw/1920)*448);
     margin-left:calc((100%/690)*36);
+    position:relative;
+}
+.view_pc > .box_ability > .box_layout_content > .box_content.left > .box_cover > .box_tools{
+    width:100%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    z-index:99;
+}
+.view_pc > .box_ability > .box_layout_content > .box_content.left > .box_cover > .box_graph{
+    width:calc((100%/516)*384);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
 }
 .view_pc > .box_ability > .box_layout_content > .box_content.right{
     flex:486 1 0%;
