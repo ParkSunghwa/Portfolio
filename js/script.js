@@ -4,6 +4,7 @@ $(document).ready(function(){
 
         navigation:true,
         
+        // .box_ability start
         afterLoad:function(origin, destination, direction){
             if(destination.index == 1){
                 const graphActive = document.querySelector(".animation_graph");
@@ -16,6 +17,7 @@ $(document).ready(function(){
                 graphInactive.beginElement();
             }
         },
+        // .box_ability end
 
     });
 
@@ -54,17 +56,6 @@ $(document).ready(function(){
     
 
     // .box_introduction end
-
-    // .box_ability start
-
-    $(".view_pc > .box_ability > .box_layout_content > .box_content.right > .box_cover > .box_text").click(function(){
-
-        const graphActive = document.querySelector(".animation_graph");
-        graphActive.beginElement();
-
-    });
-
-    // .box_ability end
 
     
     // .box_project start

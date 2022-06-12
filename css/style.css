@@ -582,6 +582,7 @@ body{
 }
 .wrap_footer > .view_pc > .box_footer > .box_layout_content_footer > .box_cover > .box_outerlink > .outerlink > .box_text > span{
     font-size:calc((1rem/16)*24);
+    line-height:calc(32/24);
 }
 
 /* .box_footer end */
