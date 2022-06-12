@@ -44,23 +44,28 @@ $(document).ready(function(){
 
     // .box_project start
 
-    const swiper = new Swiper(".view_pc .swiper", {
-        // Optional parameters
-        loop: true,
-      
-        // If we need pagination
-        // pagination: {
-        //   el: '.swiper-pagination',
-        // },
-      
-        // Navigation arrows
+    const swiper = new Swiper(".swiper", {
+
+        loop:true,
         navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
+            nextEl: ".view_pc > .box_project > .box_layout_content > .box_content.left > .box_cover_slide > .box_navigation > .box_arrow.arrow_right",
+            prevEl: ".view_pc > .box_project > .box_layout_content > .box_content.left > .box_cover_slide > .box_navigation > .box_arrow.arrow_left",
+          },
+        pagination:{
+            el: ".view_pc > .box_project > .box_layout_content > .box_content.left > .box_cover_slide > .box_pagination",
+            type:"fraction",
         },
-      
-        
-      });
+    });
+
+    
+    swiper.on("slideChangeTransitionStart", function(){
+        let indexLength = 0;
+        let indexNum = swiper.realIndex;
+        console.log(indexNum);
+
+        $(".view_pc > .box_project > .box_layout_content > .box_content.right > .box_projectinfo").eq(indexNum).addClass("active_slide");
+        $(".view_pc > .box_project > .box_layout_content > .box_content.right > .box_projectinfo").eq(indexNum).siblings().removeClass("active_slide");
+    });
 
     // .box_project end
 
