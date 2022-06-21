@@ -352,9 +352,8 @@ body{
     flex:690 1 0%;
 }
 .view_pc > .box_ability > .box_layout_content > .box_content.left > .box_cover{
-    width:calc((100%/690)*516);
-    padding-bottom: calc((100%/690)*448);
-    margin-left:calc((100%/690)*36);
+    width:calc((100%/690)*588);
+    padding-bottom: calc((100%/690)*464);
     position:relative;
 }
 .view_pc > .box_ability > .box_layout_content > .box_content.left > .box_cover > .box_tools{
@@ -366,7 +365,7 @@ body{
     z-index:99;
 }
 .view_pc > .box_ability > .box_layout_content > .box_content.left > .box_cover > .box_graph{
-    width:calc((100%/516)*384);
+    width:calc((100%/588)*384);
     position:absolute;
     top:50%;
     left:50%;
@@ -640,6 +639,25 @@ body{
     font-size:20vh;
     white-space:nowrap;
 }
+.view_hidden > .box_button{
+    width:calc((100vw/1920)*200);;
+    padding-bottom:calc((100vw/1920)*40);
+    position:absolute;
+    bottom:5vh;
+    left:50%;
+    transform:translateX(-50%);
+    text-align:center;
+    cursor:pointer;
+}
+.view_hidden > .box_button > span{
+    display:block;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    white-space:nowrap;
+    font-size:calc((1rem/16)*24);
+}
 
 /* .view_hidden end */
 
@@ -739,7 +757,14 @@ body{
     opacity:1;
     pointer-events:auto;
 }
-
+.view_hidden > .box_button > span{
+    opacity:0;
+    pointer-events:none;
+}
+.view_hidden > .box_button > span.active{
+    opacity:1;
+    pointer-events:auto;
+}
 /* on .view_hidden end */
 
 /* click event on korean-english transform end */
@@ -921,13 +946,13 @@ body{
         display:none;
     }
 }
-@media screen and (min-aspect-ratio:7/2){
+/* @media screen and (min-aspect-ratio:7/2){
     
     .view_hidden{
         display:block;
     }
     .wrap_ability{
-        display:none !important;
+        display:none;
     }
     .wrap_project{
         display:none;
@@ -941,7 +966,7 @@ body{
     #fp-nav{
         display:none;
     }
-}
+} */
 @media screen and (max-aspect-ratio:1/1){
     .wrap_background{
         display:none;

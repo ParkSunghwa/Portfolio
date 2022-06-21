@@ -77,13 +77,47 @@ $(document).ready(function(){
     swiper.on("slideChangeTransitionStart", function(){
         let indexLength = 0;
         let indexNum = swiper.realIndex;
-        console.log(indexNum);
+        // console.log(indexNum);
 
         $(".view_pc > .box_project > .box_layout_content > .box_content.right > .box_projectinfo").eq(indexNum).addClass("active_slide");
         $(".view_pc > .box_project > .box_layout_content > .box_content.right > .box_projectinfo").eq(indexNum).siblings().removeClass("active_slide");
     });
 
     // .box_project end
+
+
+    // .view_hidden start
+
+
+    $(window).resize(function(){
+        
+    let width = $(window).outerWidth(true),
+    height = $(window).outerHeight(true),
+    ratio = width/height;
+
+    console.log(width);
+    console.log(height);
+    console.log(ratio);
+
+    if(ratio >= 7/2){
+        console.log("true");
+        $(".view_hidden").css({
+            "display" : "block",
+        });
+        $(".view_hidden > .box_button").click(function(){
+            $(".view_hidden").css({
+                "display" : "none",
+            });
+        });
+    } else{
+        $(".view_hidden").css({
+            "display" : "none",
+        });
+    }
+
+    });
+
+    // .view_hidden end
 
 
 });
