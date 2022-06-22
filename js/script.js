@@ -88,34 +88,34 @@ $(document).ready(function(){
 
     // .view_hidden start
 
+    $(".view_hidden > .box_button").click(function(){
 
-    $(window).resize(function(){
-        
-    let width = $(window).outerWidth(true),
-    height = $(window).outerHeight(true),
-    ratio = width/height;
-
-    console.log(width);
-    console.log(height);
-    console.log(ratio);
-
-    if(ratio >= 7/2){
-        console.log("true");
-        $(".view_hidden").css({
-            "display" : "block",
-        });
-        $(".view_hidden > .box_button").click(function(){
-            $(".view_hidden").css({
-                "display" : "none",
-            });
-        });
-    } else{
         $(".view_hidden").css({
             "display" : "none",
         });
-    }
+        $(".view_pc").css({
+            "opacity" : 1,
+            "pointer-events" : "auto",
+            "height" : "100%",
+        });
+        $(".view_mo").css({
+            "opacity" : 1,
+            "pointer-events" : "auto",
+            "height" : "100%",
+        });
+        $(".wrap_footer > .view_pc").css({
+            "opacity" : 1,
+            "pointer-events" : "auto",
+            "height" : "calc((100vw/1920)*280)",
+        });
+        $(".wrap_footer > .view_mo").css({
+            "opacity" : 1,
+            "pointer-events" : "auto",
+            "height" : "calc((100vw/1920)*280)",
+        });
 
     });
+    
 
     // .view_hidden end
 

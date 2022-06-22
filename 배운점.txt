@@ -3,3 +3,5 @@
 2. 상위 클래스에 padding이 주어진 경우, 하위 클래스의 width를 %로 정할 때 상위 클래스의 padding값은 적용되지 않는다. 단, position:absolute가 주어진 경우 padding까지 포함해서 width로 인식하게 되어 같은 숫자를 입력해도 비율이 다르게 된다.
 
 3. 바닐라 js와 jquery는 함수 공유가 안된다! 되는 경우는 jquery에서 설정을 따로 했기에 쓸 수 있는 것.
+
+4. swiper의 경우 flex: ? ? ?%;속성을 이용해 너비를 지정하면 오류가 생긴다. width로 주자.
