@@ -60,7 +60,7 @@ $(document).ready(function(){
     
     // .box_project start
 
-    const swiper = new Swiper(".swiper", {
+    const swiper = new Swiper(".view_pc .swiper", {
 
         loop:true,
         navigation: {
@@ -83,7 +83,18 @@ $(document).ready(function(){
         $(".view_pc > .box_project > .box_layout_content > .box_content.right > .box_projectinfo").eq(indexNum).siblings().removeClass("active_slide");
     });
 
+    const swiper_mo = new Swiper(".view_mo .swiper", {
+
+        loop:true,
+        pagination:{
+            el: ".view_mo > .box_project_mo > .box_layout_content > .box_content.left > .box_cover_slide > .box_pagination",
+            // type:"fraction",
+        },
+    });
+
     // .box_project end
+
+
 
 
     // .view_hidden start
