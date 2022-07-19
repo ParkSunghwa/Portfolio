@@ -88,8 +88,14 @@ $(document).ready(function(){
         loop:true,
         pagination:{
             el: ".view_mo > .box_project_mo > .box_layout_content > .box_content.left > .box_cover_slide > .box_pagination",
-            // type:"fraction",
+            
         },
+    });
+    swiper_mo.on("slideChangeTransitionEnd", function(){
+        let indexNum = swiper.realIndex;
+
+        $(".view_mo > .box_project_mo > .box_layout_content > .box_content.right > .box_projectinfo").eq(indexNum).addClass("active_slide_mo");
+        $(".view_mo > .box_project_mo > .box_layout_content > .box_content.right > .box_projectinfo").eq(indexNum).siblings().removeClass("active_slide_mo");
     });
 
     // .box_project end
