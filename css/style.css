@@ -863,7 +863,7 @@ body{
     position:absolute;
     bottom:0;
     left:50%;
-    transform:translate(-50%,-200%);
+    transform:translate(-50%,-100%);
 }
 .view_mo > .box_project_mo > .box_layout_content > .box_content.right > .box_projectinfo > .box_outerlink > .outerlink{
     display:block;
