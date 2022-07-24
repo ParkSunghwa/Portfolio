@@ -425,6 +425,9 @@ body{
 .view_pc > .box_project > .box_layout_content > .box_content.left > .box_cover_slide > .box_slide .content_slide.slide04 > .box_image{
     background-image:url("../image/03project/converse.png");
 }
+.view_pc > .box_project > .box_layout_content > .box_content.left > .box_cover_slide > .box_slide .content_slide.slide05 > .box_image{
+    background-image:url("../image/03project/bookbrowser.png");
+}
 .view_pc > .box_project > .box_layout_content > .box_content.left > .box_cover_slide > .box_pagination{
     margin-top:calc((100%/792)*16);
     display:inline-block;
@@ -814,6 +817,9 @@ body{
 }
 .view_mo > .box_project_mo > .box_layout_content > .box_content.left > .box_cover_slide > .box_slide .content_slide.slide04{
     background-image:url("../image/03project/converse.png");
+}
+.view_mo > .box_project_mo > .box_layout_content > .box_content.left > .box_cover_slide > .box_slide .content_slide.slide05{
+    background-image:url("../image/03project/bookbrowser.png");
 }
 .view_mo > .box_project_mo > .box_layout_content > .box_content.left > .box_cover_slide > .box_pagination{
     width: 100%;
