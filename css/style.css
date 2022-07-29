@@ -626,7 +626,7 @@ body{
 }
 .view_mo > .box_introduction_mo > .dummy_formargin{
     width: 100%;
-    padding-bottom:calc((100%/350)*80);
+    padding-bottom:calc((100%/350)*88);
 }
 .view_mo > .box_introduction_mo > .box_logo{
     width:100%;
@@ -889,9 +889,7 @@ body{
     font-size:1rem;
 }
 
-/* 220720 */
-
-/* click event about active_slide start */
+/* click event about active_slide_mo start */
 .view_mo > .box_project_mo > .box_layout_content > .box_content.right > .box_projectinfo{
     z-index:88;
 }
@@ -918,13 +916,56 @@ body{
     pointer-events:auto;
 }
 
-/* click event about active_slide end */
-
-
-/* .box_project end */
+/* click event about active_slide_mo end */
 
 /* .box_project_mo end */
 
+/* .box_footer_mo start */
+
+.wrap_footer > .view_mo{
+    height:calc((100vw/390)*360);
+    background-color:#232323f7;
+}
+.wrap_footer > .view_mo > .box_footer_mo > .box_layout_content_footer{
+    margin-top:calc((100%/350)*40);
+    width:100%;
+}
+.wrap_footer > .view_mo > .box_footer_mo > .box_layout_content_footer > .box_cover{
+    width:100%;
+}
+.wrap_footer > .view_mo > .box_footer_mo > .box_layout_content_footer > .box_cover > .box_outerlink{
+    width: 100%;
+    margin-bottom:calc((100%/350)*16);
+}
+.wrap_footer > .view_mo > .box_footer_mo > .box_layout_content_footer > .box_cover > .box_outerlink > .outerlink{
+    display:block;
+    width: 100%;
+    display:flex;
+}
+.wrap_footer > .view_mo > .box_footer_mo > .box_layout_content_footer > .box_cover > .box_outerlink > .outerlink > .box_icon{
+    width:calc((100%/350)*32);
+    padding-bottom:calc((100%/350)*32);
+    border-radius:100%;
+    position:relative;
+}
+.wrap_footer > .view_mo > .box_footer_mo > .box_layout_content_footer > .box_cover > .box_outerlink > .outerlink > .box_icon > .icon{
+    width:calc((100%/32)*24);
+    height: 0;
+    padding-bottom:calc((100%/32)*24);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+.wrap_footer > .view_mo > .box_footer_mo > .box_layout_content_footer > .box_cover > .box_outerlink > .outerlink > .box_text{
+    padding-left:calc((100%/350)*8);
+}
+.wrap_footer > .view_mo > .box_footer_mo > .box_layout_content_footer > .box_cover > .box_outerlink > .outerlink > .box_text > span{
+    font-size:calc((1rem/16)*24);
+    line-height:calc(32/24);
+}
+
+/* .box_footer_mo end */
 
 /* .view_mo end */
 
