@@ -83,6 +83,21 @@ $(document).ready(function(){
         $(".view_pc > .box_project > .box_layout_content > .box_content.right > .box_projectinfo").eq(indexNum).siblings().removeClass("active_slide");
     });
 
+    const swiper_tab = new Swiper(".view_tab .swiper", {
+
+        loop:true,
+        pagination:{
+            el: ".view_tab > .box_project_tab > .box_layout_content > .box_content.left > .box_cover_slide > .box_pagination",
+            
+        },
+    });
+    swiper_tab.on("slideChangeTransitionEnd", function(){
+        let indexNum = swiper_tab.realIndex;
+
+        $(".view_tab > .box_project_tab > .box_layout_content > .box_content.right > .box_projectinfo").eq(indexNum).addClass("active_slide_tab");
+        $(".view_tab > .box_project_tab > .box_layout_content > .box_content.right > .box_projectinfo").eq(indexNum).siblings().removeClass("active_slide_tab");
+    });
+
     const swiper_mo = new Swiper(".view_mo .swiper", {
 
         loop:true,
