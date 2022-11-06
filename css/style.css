@@ -493,19 +493,20 @@ body {
 }
 
 .view_pc>.box_project>.box_layout_content>.box_content.left>.box_cover_slide>.box_slide .content_slide.slide01>.box_image {
-    background-image: url("../image/03project/okitchen.png");
+    background-image: url("../image/03project/board.png");
+    background-size:contain;
 }
 
 .view_pc>.box_project>.box_layout_content>.box_content.left>.box_cover_slide>.box_slide .content_slide.slide02>.box_image {
-    background-image: url("../image/03project/skhyeng.png");
+    background-image: url("../image/03project/okitchen.png");
 }
 
 .view_pc>.box_project>.box_layout_content>.box_content.left>.box_cover_slide>.box_slide .content_slide.slide03>.box_image {
-    background-image: url("../image/03project/hanabank.png");
+    background-image: url("../image/03project/skhyeng.png");
 }
 
 .view_pc>.box_project>.box_layout_content>.box_content.left>.box_cover_slide>.box_slide .content_slide.slide04>.box_image {
-    background-image: url("../image/03project/converse.png");
+    background-image: url("../image/03project/hanabank.png");
 }
 
 .view_pc>.box_project>.box_layout_content>.box_content.left>.box_cover_slide>.box_slide .content_slide.slide05>.box_image {
