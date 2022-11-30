@@ -957,19 +957,19 @@ body {
 }
 
 .view_tab>.box_project_tab>.box_layout_content>.box_content.left>.box_cover_slide>.box_slide .content_slide.slide01 {
-    background-image: url("../image/03project/okitchen.png");
+    background-image: url("../image/03project/board.png");
 }
 
 .view_tab>.box_project_tab>.box_layout_content>.box_content.left>.box_cover_slide>.box_slide .content_slide.slide02 {
-    background-image: url("../image/03project/skhyeng.png");
+    background-image: url("../image/03project/okitchen.png");
 }
 
 .view_tab>.box_project_tab>.box_layout_content>.box_content.left>.box_cover_slide>.box_slide .content_slide.slide03 {
-    background-image: url("../image/03project/hanabank.png");
+    background-image: url("../image/03project/skhyeng.png");
 }
 
 .view_tab>.box_project_tab>.box_layout_content>.box_content.left>.box_cover_slide>.box_slide .content_slide.slide04 {
-    background-image: url("../image/03project/converse.png");
+    background-image: url("../image/03project/hanabank.png");
 }
 
 .view_tab>.box_project_tab>.box_layout_content>.box_content.left>.box_cover_slide>.box_slide .content_slide.slide05 {
@@ -1039,8 +1039,8 @@ body {
     width: calc((100%/960)*320);
     position: absolute;
     bottom: 0;
-    left: 50%;
-    transform: translate(-50%, -100%);
+    right : 0;
+    transform: translate(0, -200%);
 }
 
 .view_tab>.box_project_tab>.box_layout_content>.box_content.right>.box_projectinfo>.box_outerlink>.outerlink {
@@ -1389,19 +1389,19 @@ body {
 }
 
 .view_mo>.box_project_mo>.box_layout_content>.box_content.left>.box_cover_slide>.box_slide .content_slide.slide01 {
-    background-image: url("../image/03project/okitchen.png");
+    background-image: url("../image/03project/board.png");
 }
 
 .view_mo>.box_project_mo>.box_layout_content>.box_content.left>.box_cover_slide>.box_slide .content_slide.slide02 {
-    background-image: url("../image/03project/skhyeng.png");
+    background-image: url("../image/03project/okitchen.png");
 }
 
 .view_mo>.box_project_mo>.box_layout_content>.box_content.left>.box_cover_slide>.box_slide .content_slide.slide03 {
-    background-image: url("../image/03project/hanabank.png");
+    background-image: url("../image/03project/skhyeng.png");
 }
 
 .view_mo>.box_project_mo>.box_layout_content>.box_content.left>.box_cover_slide>.box_slide .content_slide.slide04 {
-    background-image: url("../image/03project/converse.png");
+    background-image: url("../image/03project/hanabank.png");
 }
 
 .view_mo>.box_project_mo>.box_layout_content>.box_content.left>.box_cover_slide>.box_slide .content_slide.slide05 {
