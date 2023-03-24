@@ -492,7 +492,7 @@ body {
     overflow: hidden;
 }
 
-.view_pc>.box_project>.box_layout_content>.box_content.left>.box_cover_slide>.box_slide .content_slide.slide01>.box_image {
+/* .view_pc>.box_project>.box_layout_content>.box_content.left>.box_cover_slide>.box_slide .content_slide.slide01>.box_image {
     background-image: url("../image/03project/board.png");
     background-size:contain;
 }
@@ -511,7 +511,7 @@ body {
 
 .view_pc>.box_project>.box_layout_content>.box_content.left>.box_cover_slide>.box_slide .content_slide.slide05>.box_image {
     background-image: url("../image/03project/bookbrowser.png");
-}
+} */
 
 .view_pc>.box_project>.box_layout_content>.box_content.left>.box_cover_slide>.box_pagination {
     margin-top: calc((100%/792)*16);
@@ -583,7 +583,9 @@ body {
 .view_pc>.box_project>.box_layout_content>.box_content.right>.box_projectinfo>.box_cover>.box_text>.box_explanation_2depth:last-child {
     line-height: calc(32/24);
 }
-
+.view_pc>.box_project>.box_layout_content>.box_content.right>.box_projectinfo>.box_cover>.box_text>.box_explanation_2depth>.text_explanation_2depth{
+    white-space:nowrap;
+}
 .view_pc>.box_project>.box_layout_content>.box_content.right>.box_projectinfo>.box_outerlink {
     width: calc((100%/384)*278);
     position: absolute;
@@ -651,6 +653,7 @@ body {
 /* .box_project end */
 
 /* .box_footer start */
+
 .wrap_footer>.view_pc {
     height: calc((100vw/1920)*280);
     background-color: #232323f7;
@@ -912,8 +915,8 @@ body {
 
 .view_tab>.box_ability_tab>.box_layout_content>.box_content.left>.box_graph {
     margin: 0 auto;
-    width: calc((100%/1024)*720);
-    padding-bottom: calc((100%/1024)*595);
+    width: calc((100%/1024)*640);
+    padding-bottom: calc((100%/1024)*528);
     background-image: url("../image/02ability/mo_image_graph.png");
 }
 
@@ -956,8 +959,8 @@ body {
     overflow: hidden;
 }
 
-.view_tab>.box_project_tab>.box_layout_content>.box_content.left>.box_cover_slide>.box_slide .content_slide.slide01 {
-    background-image: url("../image/03project/board.png");
+/* .view_tab>.box_project_tab>.box_layout_content>.box_content.left>.box_cover_slide>.box_slide .content_slide.slide01 {
+    background-image: url("../image/03project/bookbrowser.png");
 }
 
 .view_tab>.box_project_tab>.box_layout_content>.box_content.left>.box_cover_slide>.box_slide .content_slide.slide02 {
@@ -974,7 +977,7 @@ body {
 
 .view_tab>.box_project_tab>.box_layout_content>.box_content.left>.box_cover_slide>.box_slide .content_slide.slide05 {
     background-image: url("../image/03project/bookbrowser.png");
-}
+} */
 
 .view_tab>.box_project_tab>.box_layout_content>.box_content.left>.box_cover_slide>.box_pagination {
     width: 100%;
@@ -1034,6 +1037,9 @@ body {
 .view_tab>.box_project_tab>.box_layout_content>.box_content.right>.box_projectinfo>.box_cover>.box_text>.box_explanation_2depth {
     margin-top: calc((100%/960)*(36 - 28));
 }
+.view_tab>.box_project_tab>.box_layout_content>.box_content.right>.box_projectinfo>.box_cover>.box_text>.box_explanation_2depth>.text_explanation_2depth{
+    white-space:nowrap;
+}
 
 .view_tab>.box_project_tab>.box_layout_content>.box_content.right>.box_projectinfo>.box_outerlink {
     width: calc((100%/960)*320);
@@ -1041,6 +1047,7 @@ body {
     bottom: 0;
     right : 0;
     transform: translate(0, -200%);
+    z-index:999;
 }
 
 .view_tab>.box_project_tab>.box_layout_content>.box_content.right>.box_projectinfo>.box_outerlink>.outerlink {
@@ -1388,7 +1395,7 @@ body {
     overflow: hidden;
 }
 
-.view_mo>.box_project_mo>.box_layout_content>.box_content.left>.box_cover_slide>.box_slide .content_slide.slide01 {
+/* .view_mo>.box_project_mo>.box_layout_content>.box_content.left>.box_cover_slide>.box_slide .content_slide.slide01 {
     background-image: url("../image/03project/board.png");
 }
 
@@ -1406,7 +1413,7 @@ body {
 
 .view_mo>.box_project_mo>.box_layout_content>.box_content.left>.box_cover_slide>.box_slide .content_slide.slide05 {
     background-image: url("../image/03project/bookbrowser.png");
-}
+} */
 
 .view_mo>.box_project_mo>.box_layout_content>.box_content.left>.box_cover_slide>.box_pagination {
     width: 100%;
@@ -1452,6 +1459,9 @@ body {
 
 .view_mo>.box_project_mo>.box_layout_content>.box_content.right>.box_projectinfo>.box_cover>.box_text>.box_explanation_2depth {
     margin-top: calc((100%/350)*(24 - 16));
+}
+.view_mo>.box_project_mo>.box_layout_content>.box_content.right>.box_projectinfo>.box_cover>.box_text>.box_explanation_2depth > .text_explanation_2depth{
+    white-space:nowrap;
 }
 
 .view_mo>.box_project_mo>.box_layout_content>.box_content.right>.box_projectinfo>.box_outerlink {

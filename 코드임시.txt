@@ -74,3 +74,545 @@
 /* .box_layout_content end */
 
 /* modulation on .box_abilty .box_project .box_contact end */
+
+
+
+
+<div class="box_content right">
+                            <div class="box_projectinfo project01 wh_inherit active_slide_tab">
+                                <div class="box_cover kor active">
+                                    <div class="box_text text01">
+                                        <div class="box_title_2depth">
+                                            <div class="box_circle">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <span class="text_title_2depth">
+                                                타이틀
+                                            </span>
+                                        </div>
+                                        <div class="box_explanation_2depth">
+                                            <span class="text_explanation_2depth">
+                                                오키친
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="box_text text02">
+                                        <div class="box_title_2depth">
+                                            <div class="box_circle">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <span class="text_title_2depth">
+                                                목표
+                                            </span>
+                                        </div>
+                                        <div class="box_explanation_2depth">
+                                            <span class="text_explanation_2depth">
+                                                리디자인
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="box_text text03">
+                                        <div class="box_title_2depth">
+                                            <div class="box_circle">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <span class="text_title_2depth">
+                                                컨셉
+                                            </span>
+                                        </div>
+                                        <div class="box_explanation_2depth">
+                                            <span class="text_explanation_2depth">
+                                                반응형 전체화면 데스크탑 모바일
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box_cover eng">
+                                    <div class="box_text text01">
+                                        <div class="box_title_2depth">
+                                            <div class="box_circle">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <span class="text_title_2depth">
+                                                Title
+                                            </span>
+                                        </div>
+                                        <div class="box_explanation_2depth">
+                                            <span class="text_explanation_2depth">
+                                                O'Kitchen
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="box_text text02">
+                                        <div class="box_title_2depth">
+                                            <div class="box_circle">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <span class="text_title_2depth">
+                                                Goals
+                                            </span>
+                                        </div>
+                                        <div class="box_explanation_2depth">
+                                            <span class="text_explanation_2depth">
+                                                Re-design
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="box_text text03">
+                                        <div class="box_title_2depth">
+                                            <div class="box_circle">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <span class="text_title_2depth">
+                                                Concept
+                                            </span>
+                                        </div>
+                                        <div class="box_explanation_2depth">
+                                            <span class="text_explanation_2depth">
+                                                Reactive Fullpage Desktop Mobile
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box_outerlink">
+                                    <a href="https://parksunghwa.github.io/redesign_o-kitchen/" target="_blank"
+                                        class="outerlink bgcolor_red color_white">
+                                        <div class="box_text kor active">
+                                            <span>프로젝트 링크</span>
+                                        </div>
+                                        <div class="box_text eng">
+                                            <span>Project Link</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="box_projectinfo project02 wh_inherit">
+                                <div class="box_cover kor active">
+                                    <div class="box_text text01">
+                                        <div class="box_title_2depth">
+                                            <div class="box_circle">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <span class="text_title_2depth">
+                                                타이틀
+                                            </span>
+                                        </div>
+                                        <div class="box_explanation_2depth">
+                                            <span class="text_explanation_2depth">
+                                                SK한양이엔지
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="box_text text02">
+                                        <div class="box_title_2depth">
+                                            <div class="box_circle">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <span class="text_title_2depth">
+                                                목표
+                                            </span>
+                                        </div>
+                                        <div class="box_explanation_2depth">
+                                            <span class="text_explanation_2depth">
+                                                모작
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="box_text text03">
+                                        <div class="box_title_2depth">
+                                            <div class="box_circle">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <span class="text_title_2depth">
+                                                컨셉
+                                            </span>
+                                        </div>
+                                        <div class="box_explanation_2depth">
+                                            <span class="text_explanation_2depth">
+                                                반응형 애니메이션 데스크탑
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box_cover eng">
+                                    <div class="box_text text01">
+                                        <div class="box_title_2depth">
+                                            <div class="box_circle">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <span class="text_title_2depth">
+                                                Title
+                                            </span>
+                                        </div>
+                                        <div class="box_explanation_2depth">
+                                            <span class="text_explanation_2depth">
+                                                SKhyeng
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="box_text text02">
+                                        <div class="box_title_2depth">
+                                            <div class="box_circle">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <span class="text_title_2depth">
+                                                Goals
+                                            </span>
+                                        </div>
+                                        <div class="box_explanation_2depth">
+                                            <span class="text_explanation_2depth">
+                                                Clone-coding
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="box_text text03">
+                                        <div class="box_title_2depth">
+                                            <div class="box_circle">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <span class="text_title_2depth">
+                                                Concept
+                                            </span>
+                                        </div>
+                                        <div class="box_explanation_2depth">
+                                            <span class="text_explanation_2depth">
+                                                Solid Animation Desktop
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box_outerlink">
+                                    <a href="https://parksunghwa.github.io/clonecoding_SKhyeng/" target="_blank"
+                                        class="outerlink bgcolor_red color_white">
+                                        <div class="box_text kor active">
+                                            <span>프로젝트 링크</span>
+                                        </div>
+                                        <div class="box_text eng">
+                                            <span>Project Link</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="box_projectinfo project03 wh_inherit">
+                                <div class="box_cover kor active">
+                                    <div class="box_text text01">
+                                        <div class="box_title_2depth">
+                                            <div class="box_circle">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <span class="text_title_2depth">
+                                                타이틀
+                                            </span>
+                                        </div>
+                                        <div class="box_explanation_2depth">
+                                            <span class="text_explanation_2depth">
+                                                하나은행
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="box_text text02">
+                                        <div class="box_title_2depth">
+                                            <div class="box_circle">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <span class="text_title_2depth">
+                                                목표
+                                            </span>
+                                        </div>
+                                        <div class="box_explanation_2depth">
+                                            <span class="text_explanation_2depth">
+                                                모작
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="box_text text03">
+                                        <div class="box_title_2depth">
+                                            <div class="box_circle">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <span class="text_title_2depth">
+                                                컨셉
+                                            </span>
+                                        </div>
+                                        <div class="box_explanation_2depth">
+                                            <span class="text_explanation_2depth">
+                                                고정형 데스크탑
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box_cover eng">
+                                    <div class="box_text text01">
+                                        <div class="box_title_2depth">
+                                            <div class="box_circle">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <span class="text_title_2depth">
+                                                Title
+                                            </span>
+                                        </div>
+                                        <div class="box_explanation_2depth">
+                                            <span class="text_explanation_2depth">
+                                                Hanabank
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="box_text text02">
+                                        <div class="box_title_2depth">
+                                            <div class="box_circle">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <span class="text_title_2depth">
+                                                Goals
+                                            </span>
+                                        </div>
+                                        <div class="box_explanation_2depth">
+                                            <span class="text_explanation_2depth">
+                                                Clone-coding
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="box_text text03">
+                                        <div class="box_title_2depth">
+                                            <div class="box_circle">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <span class="text_title_2depth">
+                                                Concept
+                                            </span>
+                                        </div>
+                                        <div class="box_explanation_2depth">
+                                            <span class="text_explanation_2depth">
+                                                Solid Desktop
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box_outerlink">
+                                    <a href="https://parksunghwa.github.io/clonecoding_hanabank/" target="_blank"
+                                        class="outerlink bgcolor_red color_white">
+                                        <div class="box_text kor active">
+                                            <span>프로젝트 링크</span>
+                                        </div>
+                                        <div class="box_text eng">
+                                            <span>Project Link</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="box_projectinfo project04 wh_inherit">
+                                <div class="box_cover kor active">
+                                    <div class="box_text text01">
+                                        <div class="box_title_2depth">
+                                            <div class="box_circle">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <span class="text_title_2depth">
+                                                타이틀
+                                            </span>
+                                        </div>
+                                        <div class="box_explanation_2depth">
+                                            <span class="text_explanation_2depth">
+                                                컨버스
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="box_text text02">
+                                        <div class="box_title_2depth">
+                                            <div class="box_circle">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <span class="text_title_2depth">
+                                                목표
+                                            </span>
+                                        </div>
+                                        <div class="box_explanation_2depth">
+                                            <span class="text_explanation_2depth">
+                                                모작
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="box_text text03">
+                                        <div class="box_title_2depth">
+                                            <div class="box_circle">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <span class="text_title_2depth">
+                                                컨셉
+                                            </span>
+                                        </div>
+                                        <div class="box_explanation_2depth">
+                                            <span class="text_explanation_2depth">
+                                                반응형 데스크탑
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box_cover eng">
+                                    <div class="box_text text01">
+                                        <div class="box_title_2depth">
+                                            <div class="box_circle">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <span class="text_title_2depth">
+                                                Title
+                                            </span>
+                                        </div>
+                                        <div class="box_explanation_2depth">
+                                            <span class="text_explanation_2depth">
+                                                Converse
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="box_text text02">
+                                        <div class="box_title_2depth">
+                                            <div class="box_circle">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <span class="text_title_2depth">
+                                                Goals
+                                            </span>
+                                        </div>
+                                        <div class="box_explanation_2depth">
+                                            <span class="text_explanation_2depth">
+                                                Clone-coding
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="box_text text03">
+                                        <div class="box_title_2depth">
+                                            <div class="box_circle">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <span class="text_title_2depth">
+                                                Concept
+                                            </span>
+                                        </div>
+                                        <div class="box_explanation_2depth">
+                                            <span class="text_explanation_2depth">
+                                                Reactive Desktop
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box_outerlink">
+                                    <a href="https://parksunghwa.github.io/clonecoding_converse/" target="_blank"
+                                        class="outerlink bgcolor_red color_white">
+                                        <div class="box_text kor active">
+                                            <span>프로젝트 링크</span>
+                                        </div>
+                                        <div class="box_text eng">
+                                            <span>Project Link</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="box_projectinfo project04 wh_inherit">
+                                <div class="box_cover kor active">
+                                    <div class="box_text text01">
+                                        <div class="box_title_2depth">
+                                            <div class="box_circle">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <span class="text_title_2depth">
+                                                타이틀
+                                            </span>
+                                        </div>
+                                        <div class="box_explanation_2depth">
+                                            <span class="text_explanation_2depth">
+                                                도서검색대
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="box_text text02">
+                                        <div class="box_title_2depth">
+                                            <div class="box_circle">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <span class="text_title_2depth">
+                                                목표
+                                            </span>
+                                        </div>
+                                        <div class="box_explanation_2depth">
+                                            <span class="text_explanation_2depth">
+                                                자바스크립트 스터디
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="box_text text03">
+                                        <div class="box_title_2depth">
+                                            <div class="box_circle">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <span class="text_title_2depth">
+                                                컨셉
+                                            </span>
+                                        </div>
+                                        <div class="box_explanation_2depth">
+                                            <span class="text_explanation_2depth">
+                                                API 적용 연습 데스크탑
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box_cover eng">
+                                    <div class="box_text text01">
+                                        <div class="box_title_2depth">
+                                            <div class="box_circle">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <span class="text_title_2depth">
+                                                Title
+                                            </span>
+                                        </div>
+                                        <div class="box_explanation_2depth">
+                                            <span class="text_explanation_2depth">
+                                                Book Browser
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="box_text text02">
+                                        <div class="box_title_2depth">
+                                            <div class="box_circle">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <span class="text_title_2depth">
+                                                Goals
+                                            </span>
+                                        </div>
+                                        <div class="box_explanation_2depth">
+                                            <span class="text_explanation_2depth">
+                                                Javascript Study
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="box_text text03">
+                                        <div class="box_title_2depth">
+                                            <div class="box_circle">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <span class="text_title_2depth">
+                                                Concept
+                                            </span>
+                                        </div>
+                                        <div class="box_explanation_2depth">
+                                            <span class="text_explanation_2depth">
+                                                API Desktop
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box_outerlink">
+                                    <a href="https://parksunghwa.github.io/jsstudy_bookbrowser/" target="_blank"
+                                        class="outerlink bgcolor_red color_white">
+                                        <div class="box_text kor active">
+                                            <span>프로젝트 링크</span>
+                                        </div>
+                                        <div class="box_text eng">
+                                            <span>Project Link</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
