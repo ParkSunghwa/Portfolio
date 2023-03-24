@@ -77,9 +77,9 @@ $(document).ready(function(){
             templateConceptEng = templateConceptEng+b+'&#32;';
         });
         
-        $(`.view_pc>.box_project>.box_layout_content>.box_content.left>.box_cover_slide>.box_slide .content_slide.slide0${i+1}>.box_image`).css({"background-image" : `url(../image/03project/${a.image})`});
-        $(`.view_tab>.box_project_tab>.box_layout_content>.box_content.left>.box_cover_slide>.box_slide .content_slide.slide0${i+1}`).css({"background-image" : `url(../image/03project/${a.image})`});
-        $(`.view_mo>.box_project_mo>.box_layout_content>.box_content.left>.box_cover_slide>.box_slide .content_slide.slide0${i+1}`).css({"background-image" : `url(../image/03project/${a.image})`});
+        $(`.view_pc>.box_project>.box_layout_content>.box_content.left>.box_cover_slide>.box_slide .content_slide.slide0${i+1}>.box_image`).css({"background-image" : `url(./../image/03project/${a.image})`});
+        $(`.view_tab>.box_project_tab>.box_layout_content>.box_content.left>.box_cover_slide>.box_slide .content_slide.slide0${i+1}`).css({"background-image" : `url(./../image/03project/${a.image})`});
+        $(`.view_mo>.box_project_mo>.box_layout_content>.box_content.left>.box_cover_slide>.box_slide .content_slide.slide0${i+1}`).css({"background-image" : `url(./../image/03project/${a.image})`});
 
         $(`.view_pc>.box_project>.box_layout_content>.box_content.right>.box_projectinfo.project0${i+1}>.box_cover.kor>.box_text.text01>.box_explanation_2depth>.text_explanation_2depth`).text(a.title.korean);
         $(`.view_pc>.box_project>.box_layout_content>.box_content.right>.box_projectinfo.project0${i+1}>.box_cover.kor>.box_text.text02>.box_explanation_2depth>.text_explanation_2depth`).text(a.goal.korean);
