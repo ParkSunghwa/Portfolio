@@ -26,7 +26,7 @@ const projectList = [{
             english: 'React Practice',
         },
         concept: {
-            korean: ['리액트 라우터', '세션스토리지', '부트스트랩'],
+            korean: ['리액트-라우터', '세션스토리지', '부트스트랩'],
             english: ['React-Router', 'Session Storage', 'Bootstrap'],
         },
         link: "https://parksunghwa.github.io/react_shoestore/",

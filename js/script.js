@@ -73,7 +73,7 @@ $(document).ready(function(){
         a.concept.korean.forEach(function(b,i){
             templateConceptKor = templateConceptKor+b+'&#32;';
         });
-        a.concept.korean.forEach(function(b,i){
+        a.concept.english.forEach(function(b,i){
             templateConceptEng = templateConceptEng+b+'&#32;';
         });
         
